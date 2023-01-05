@@ -1,0 +1,7 @@
+/* ===== FONT FACE ===== */
+@import url("../fonts/font.css");
+
+/* ===== TAILWIND DIRECTIVES ===== */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
