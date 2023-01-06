@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import justImage1 from "../../assets/images/content/image just arrived - 1.jpg";
 import justImage2 from "../../assets/images/content/image just arrived - 2.jpg";
@@ -36,9 +37,9 @@ export default function JustArrived() {
             </div>
             <h5 className="mt-4 text-lg font-semibold">Cangkir Mauttie</h5>
             <span className="">IDR 89.300.000</span>
-            <a href="details.html" className="stretched-link">
+            <Link to="/categories/87352" className="stretched-link">
               {/* <!-- fake children --> */}
-            </a>
+            </Link>
           </div>
 
           <div className="card relative px-4">
@@ -54,9 +55,9 @@ export default function JustArrived() {
             </div>
             <h5 className="mt-4 text-lg font-semibold">Bangkyu Minimax</h5>
             <span className="">IDR 65.300.000</span>
-            <a href="details.html" className="stretched-link">
+            <Link to="/categories/87352" className="stretched-link">
               {/* <!-- fake children --> */}
-            </a>
+            </Link>
           </div>
 
           <div className="card relative px-4">
@@ -72,9 +73,9 @@ export default function JustArrived() {
             </div>
             <h5 className="mt-4 text-lg font-semibold">Buku Sidu Edition</h5>
             <span className="">IDR 12.000.000</span>
-            <a href="details.html" className="stretched-link">
+            <Link to="/categories/87352" className="stretched-link">
               {/* <!-- fake children --> */}
-            </a>
+            </Link>
           </div>
 
           <div className="card relative px-4">
@@ -90,9 +91,9 @@ export default function JustArrived() {
             </div>
             <h5 className="mt-4 text-lg font-semibold">Watch Notes X</h5>
             <span className="">IDR 75.000.000</span>
-            <a href="details.html" className="stretched-link">
+            <Link to="/categories/87352" className="stretched-link">
               {/* <!-- fake children --> */}
-            </a>
+            </Link>
           </div>
 
           <div className="card relative px-4">
@@ -108,9 +109,9 @@ export default function JustArrived() {
             </div>
             <h5 className="mt-4 text-lg font-semibold">Racking Plants</h5>
             <span className="">IDR 2.400.000</span>
-            <a href="details.html" className="stretched-link">
+            <Link to="/categories/87352" className="stretched-link">
               {/* <!-- fake children --> */}
-            </a>
+            </Link>
           </div>
         </div>
       </div>

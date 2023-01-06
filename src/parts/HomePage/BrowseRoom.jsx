@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import CatalogImage1 from "../../assets/images/content/image-catalog-1.jpg";
 import CatalogImage2 from "../../assets/images/content/image-catalog-2.jpg";
@@ -32,9 +33,9 @@ export default function BrowseRoom() {
               <h5 className="text-lg font-semibold">Living Room</h5>
               <span className="">18.309 items</span>
             </div>
-            <a href="details.html" className="stretched-link">
+            <Link to="/categories/87352" className="stretched-link">
               {/* <!-- fake children --> */}
-            </a>
+            </Link>
           </div>
 
           <div className="card relative col-span-9 row-span-1 md:col-span-2 md:row-span-2">
@@ -49,9 +50,9 @@ export default function BrowseRoom() {
               <h5 className="text-lg font-semibold">Decoration</h5>
               <span className="">77.392 items</span>
             </div>
-            <a href="details.html" className="stretched-link">
+            <Link to="/categories/87352" className="stretched-link">
               {/* <!-- fake children --> */}
-            </a>
+            </Link>
           </div>
 
           <div className="card relative col-span-9 row-span-1 md:col-span-3 md:row-span-2">
@@ -66,9 +67,9 @@ export default function BrowseRoom() {
               <h5 className="text-lg font-semibold">Bed Room</h5>
               <span className="">22.094 items</span>
             </div>
-            <a href="details.html" className="stretched-link">
+            <Link to="/categories/87352" className="stretched-link">
               {/* <!-- fake children --> */}
-            </a>
+            </Link>
           </div>
 
           <div className="card relative col-span-9 row-span-1 md:col-span-4">
@@ -83,9 +84,9 @@ export default function BrowseRoom() {
               <h5 className="text-lg font-semibold">Children Room</h5>
               <span className="">807 items</span>
             </div>
-            <a href="details.html" className="stretched-link">
+            <Link to="/categories/87352" className="stretched-link">
               {/* <!-- fake children --> */}
-            </a>
+            </Link>
           </div>
         </div>
       </div>

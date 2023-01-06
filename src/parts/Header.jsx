@@ -3,16 +3,18 @@ import { Link } from "react-router-dom";
 
 import HeaderLogo from "../assets/images/design/logo.svg";
 
-export default function Header() {
+export default function Header({ theme, position }) {
   return (
-    <header className="absolute z-50 w-full px-4">
+    <header className={[position, "z-50 w-full px-4"].join(" ")}>
       <div className="container mx-auto py-10">
         <div className="flex-stretch flex items-center">
           <div className="flex w-56 items-center">
-            <img
-              src={HeaderLogo}
-              alt="Luxspace - adalah sebuah website yang menjual barang-barang furniture yang keren"
-            />
+            <Link to="/">
+              <img
+                src={HeaderLogo}
+                alt="Luxspace - adalah sebuah website yang menjual barang-barang furniture yang keren"
+              />
+            </Link>
           </div>
 
           <div className="w-full"></div>
@@ -25,7 +27,10 @@ export default function Header() {
               <li className="mx-3 py-6 md:py-0">
                 <Link
                   to="/showcase"
-                  className="text-black hover:text-white hover:underline"
+                  className={[
+                    "hover:underline",
+                    theme === "white" ? "text-black" : "text-white",
+                  ].join(" ")}
                 >
                   Showcase
                 </Link>
@@ -33,7 +38,10 @@ export default function Header() {
               <li className="mx-3 py-6 md:py-0">
                 <Link
                   to="/catalog"
-                  className="text-black hover:text-white hover:underline"
+                  className={[
+                    "hover:underline",
+                    theme === "white" ? "text-black" : "text-white",
+                  ].join(" ")}
                 >
                   Catalog
                 </Link>
@@ -41,7 +49,10 @@ export default function Header() {
               <li className="mx-3 py-6 md:py-0">
                 <Link
                   to="/delivery"
-                  className="text-black hover:text-white hover:underline"
+                  className={[
+                    "hover:underline",
+                    theme === "white" ? "text-black" : "text-white",
+                  ].join(" ")}
                 >
                   Delivery
                 </Link>
@@ -49,7 +60,10 @@ export default function Header() {
               <li className="mx-3 py-6 md:py-0">
                 <Link
                   to="/rewards"
-                  className="text-black hover:text-white hover:underline"
+                  className={[
+                    "hover:underline",
+                    theme === "white" ? "text-black" : "text-white",
+                  ].join(" ")}
                 >
                   Rewards
                 </Link>
@@ -78,7 +92,10 @@ export default function Header() {
               <li className="ml-6">
                 <Link
                   to="/cart"
-                  className="cart cart-filled flex h-8 w-8 items-center justify-center text-black hover:text-white"
+                  className={[
+                    "cart cart-filled flex h-8 w-8 items-center justify-center",
+                    theme === "white" ? "text-black" : "text-white",
+                  ].join(" ")}
                 >
                   <svg
                     className="fill-current"
