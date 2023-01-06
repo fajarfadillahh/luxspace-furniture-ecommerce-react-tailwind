@@ -1,6 +1,6 @@
 import React from "react";
 
-import ImageHero from "../assets/images/content/image-hero.jpg";
+import ImageHero from "../../assets/images/content/image-hero.jpg";
 
 export default function Hero() {
   return (
