@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import ShowcaseImg1 from "../../assets/images/content/showcase-1.front.jpg";
 import ShowcaseImg2 from "../../assets/images/content/showcase-1.back.jpg";
@@ -87,8 +88,8 @@ export default function ProductDetails() {
             <p className="text-xl">IDR 12.000.000</p>
           </div>
 
-          <a
-            href="cart.html"
+          <Link
+            to="/cart"
             className="mt-4 inline-flex w-full justify-center rounded-full bg-pink-400 px-8 py-3 text-black transition-all duration-200 focus:bg-black focus:text-pink-400 md:w-auto"
           >
             <svg
@@ -106,7 +107,7 @@ export default function ProductDetails() {
               <path d="M25.6499 4.88404C25.407 4.58092 25.0472 4.40711 24.6626 4.40711H4.82655L4.42595 2.42947C4.34232 2.01694 4.06563 1.67055 3.68565 1.50276L0.890528 0.268963C0.567841 0.126419 0.192825 0.276999 0.0528584 0.60505C-0.0872597 0.933204 0.0608116 1.31463 0.383347 1.45696L3.17852 2.69081L6.2598 17.9014C6.38117 18.5004 6.90578 18.9352 7.50723 18.9352H22.7635C23.1152 18.9352 23.4003 18.6452 23.4003 18.2876C23.4003 17.9299 23.1152 17.64 22.7635 17.64H7.50728L7.13247 15.7897H22.8814C23.4828 15.7897 24.0075 15.3549 24.1288 14.7559L25.9101 5.96349C25.9876 5.58063 25.8928 5.1871 25.6499 4.88404ZM22.8814 14.4946H6.87012L5.08895 5.70226L24.6626 5.70231L22.8814 14.4946Z" />
             </svg>
             Add to Cart
-          </a>
+          </Link>
 
           <hr className="my-8" />
 
