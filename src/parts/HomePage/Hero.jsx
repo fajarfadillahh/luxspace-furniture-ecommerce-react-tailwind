@@ -27,11 +27,11 @@ export default function Hero() {
 
       <div className="inset-0 w-full md:relative md:w-1/2">
         <div className="hero-image relative">
-          <div className="overlay inset-0 z-10 bg-black bg-opacity-30"></div>
+          <div className="overlay inset-0 z-10 bg-black bg-opacity-40"></div>
           <div className="overlay right-0 bottom-0 md:inset-0">
             <button
               className="video hero-cta modal-trigger z-30 focus:outline-none"
-              data-content='<div class="w-screen pb-56 md:w-88 relative z-50">
+              data-content='<div class="w-screen pb-56 md:w-96 relative z-50">
               <div class="absolute w-full h-full">
                 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/MHjycTZ101o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>

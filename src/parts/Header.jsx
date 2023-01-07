@@ -5,7 +5,7 @@ import HeaderLogo from "../assets/images/design/logo.svg";
 
 export default function Header({ theme, position }) {
   return (
-    <header className={[position, "z-50 w-full px-4"].join(" ")}>
+    <header className={[position, "z-20 w-full px-4"].join(" ")}>
       <div className="container mx-auto py-10">
         <div className="flex-stretch flex items-center">
           <div className="flex w-56 items-center">
