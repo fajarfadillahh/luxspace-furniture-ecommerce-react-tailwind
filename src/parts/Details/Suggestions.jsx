@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import SuggestionImg1 from "../../assets/images/content/chair-1.png";
 import SuggestionImg2 from "../../assets/images/content/chair-2.png";
@@ -28,9 +29,9 @@ export default function Suggestions() {
               </div>
               <h5 className="mt-4 text-lg font-semibold">Office Chair 2xl</h5>
               <span className="">IDR 89.300.000</span>
-              <a href="details.html" className="stretched-link">
+              <Link to="/categories/87352" className="stretched-link">
                 {/* <!-- fake children --> */}
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -45,9 +46,9 @@ export default function Suggestions() {
               </div>
               <h5 className="mt-4 text-lg font-semibold">Office Chair 2xl</h5>
               <span className="">IDR 89.300.000</span>
-              <a href="details.html" className="stretched-link">
+              <Link to="/categories/87352" className="stretched-link">
                 {/* <!-- fake children --> */}
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -62,9 +63,9 @@ export default function Suggestions() {
               </div>
               <h5 className="mt-4 text-lg font-semibold">Office Chair 2xl</h5>
               <span className="">IDR 89.300.000</span>
-              <a href="details.html" className="stretched-link">
+              <Link to="/categories/87352" className="stretched-link">
                 {/* <!-- fake children --> */}
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -79,9 +80,9 @@ export default function Suggestions() {
               </div>
               <h5 className="mt-4 text-lg font-semibold">Office Chair 2xl</h5>
               <span className="">IDR 89.300.000</span>
-              <a href="details.html" className="stretched-link">
+              <Link to="/categories/87352" className="stretched-link">
                 {/* <!-- fake children --> */}
-              </a>
+              </Link>
             </div>
           </div>
         </div>
