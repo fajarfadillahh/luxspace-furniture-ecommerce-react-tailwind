@@ -19,9 +19,9 @@ export default function ProductDetails() {
           <div className="slider">
             <div className="thumbnail">
               <div className="px-2">
-                <div className="item selected" data-img={ShowcaseImg1}>
+                <div className="item selected" data-img={ShowcaseImg2}>
                   <img
-                    src={ShowcaseImg1}
+                    src={ShowcaseImg2}
                     className="h-full w-full rounded-lg object-cover"
                     alt="Chair Image"
                   />

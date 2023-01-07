@@ -3,8 +3,8 @@ import React from "react";
 import Header from "../parts/Header";
 import Breadcrumb from "../components/Breadcrumb";
 import ProductDetails from "../parts/Details/ProductDetails";
+import Suggestions from "../parts/Details/Suggestions";
 
-import Clients from "../parts/Clients";
 import Sitemap from "../parts/Sitemap";
 import Footer from "../parts/Footer";
 
@@ -20,7 +20,7 @@ export default function Details() {
         ]}
       />
       <ProductDetails />
-      <Clients />
+      <Suggestions />
       <Sitemap />
       <Footer />
     </>

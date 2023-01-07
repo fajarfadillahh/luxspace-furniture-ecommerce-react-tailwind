@@ -79,7 +79,7 @@
   }
 
   .slider .thumbnail .item {
-    @apply relative mb-4 cursor-pointer rounded-lg bg-gray-100;
+    @apply relative mb-4 cursor-pointer rounded-lg;
     width: 106px;
     height: 106px;
   }
