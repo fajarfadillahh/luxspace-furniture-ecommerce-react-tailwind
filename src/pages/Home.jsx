@@ -8,7 +8,11 @@ import Clients from "../parts/Clients";
 import Sitemap from "../parts/Sitemap";
 import Footer from "../parts/Footer";
 
+import useScrollAnchor from "../helpers/hooks/useScrollAnchor";
+
 export default function Home() {
+  useScrollAnchor();
+
   return (
     <>
       <Header theme="black" position="absolute" />
