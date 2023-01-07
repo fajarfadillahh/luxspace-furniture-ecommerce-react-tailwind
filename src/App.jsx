@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Details from "./pages/Details";
 import Cart from "./pages/Cart";
 import Success from "./pages/Success";
+import NotFound from "./pages/NotFound";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
           <Route path="/categories/:idc" element={<Details />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/success" element={<Success />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>
     </>
