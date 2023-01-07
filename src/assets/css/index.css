@@ -89,9 +89,9 @@
     @apply absolute inset-0 rounded-lg border-2 border-solid border-black border-opacity-0 bg-black bg-opacity-0 transition duration-200;
   }
 
-  /* .slider .thumbnail .item.selected::after {
-    @apply bg-opacity-35 border-opacity-100;
-  } */
+  .slider .thumbnail .item.selected::after {
+    @apply border-opacity-100 bg-opacity-30;
+  }
 
   .slider .preview {
     @apply mb-4 px-4;
